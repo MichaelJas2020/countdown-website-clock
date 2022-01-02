@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+    
+    background-attachment: fixed;
+    font-family: 'Special Elite', sans-serif;
+    margin: 0;
+    background-image:url("./imges/wallpaper.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown-container {
+    display: flex;
+    
+
+}
+
+h1 {
+    font-size: 4.5rem;
+    margin-top: -15rem;
+    text-align: center;
+    color:white
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    color:#272522
+
+
+}
+
+.countdown-el {
+    text-align: center;
+
+}
+
+.countdown-el span {
+    font-size: 1.6rem;
+    
+}
+
+form {
+    width: 450px;
+    
+  }
+  
+  
+  .header {
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+  
+  
+  .description {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.3em;
+    margin: -2px 0 45px;
+    text-align: center;
+  }
+  
+  
+  .input {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .button {
+    height: 44px;
+    border: none;
+  }
+  
+    
+  #email {
+    width: 75%;
+    background: #FDFCFB;
+    font-family: inherit;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  
+  #submit {
+    width: 25%;
+    height: 46px;
+    background: #E86C8D;
+    font-family: inherit;
+    font-weight: bold;
+    color: inherit;
+    letter-spacing: 1px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+  }
+    
+  
+  #submit:hover {
+    background: #d45d7d;
+  }
+    
+  
+  input:focus {
+    outline: none;
+    outline: 2px solid #E86C8D;
+    box-shadow: 0 0 2px #E86C8D;
+  }
+
+@media only screen and (max-width: 649px) {
+ .big-text {
+  font-size: 3rem; 
+ }
+
+ h1 {
+  font-size: 3.5rem;
+  margin-top: -15rem;
+  
+}
+
+}
+
+@media only screen and (max-width: 499px) {
+
+  .big-text {
+    font-size: 2.15rem; 
+    margin-top: 5rem;
+   }
+  
+   h1 {
+    font-size: 2.5rem;
+    margin-top: -15rem;
+    
+  }
+
+  #email {
+    width: 65%;
+    margin-left: 8%;
+    
+  }
+
+  #submit {
+    width: 20%;
+    
+  }
+  
+
+}
+
+@media only screen and (max-width: 450px) {
+  .big-text {
+    font-size: 1.85rem; 
+    margin-top: 5rem;
+   }
+  
+   h1 {
+    font-size: 2.5rem;
+    margin-top: -15rem;
+    
+  }
+
+  #email {
+    width: 65%;
+    margin-left: 8%;
+    
+  }
+
+  #submit {
+    width: 20%;
+    
+  }
+
+  .countdown-el span {
+    font-size: 1rem;
+    
+}
+
+}
+
+@media only screen and (max-width: 399px) {
+  .big-text {
+    font-size: 1.7rem; 
+    margin-top: 5rem;
+   }
+  
+   h1 {
+    font-size: 2.2rem;
+    margin-top: -15rem;
+    
+  }
+
+  #email {
+    width: 55%;
+    margin-left: 14.5%;
+    
+  }
+
+  #submit {
+    width: 15%;
+    
+  }
+
+  .countdown-el span {
+    font-size: 0.70rem;
+    
+}
+
+}
+
+@media only screen and (max-width: 346px) {
+  .big-text {
+    font-size: 2rem; 
+    margin-top: 5rem;
+    margin: 0 1rem;
+    margin-bottom: 45%;
+   }
+  
+   h1 {
+    font-size: 2.2rem;
+    margin-top: -18rem;
+    margin-bottom: 25%;
+    
+  }
+
+  #email {
+    width: 55%;
+    margin-left: 17%;
+    
+  }
+
+  #submit {
+    width: 2.85rem;
+    font-size: 0.5rem;
+    
+  }
+
+  .countdown-el span {
+    font-size: 0.70rem;
+    
+}
+
+}
